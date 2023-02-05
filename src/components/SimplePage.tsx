@@ -3,6 +3,7 @@ import Contacs from './contacts';
 import Experience from './experience';
 import NamePosition from './name-position';
 import Skills from './skills';
+import { HeaderStyled } from './styled';
 import styles from './styles.module.css';
 
 const name = 'Sebastian' as const;
@@ -20,10 +21,10 @@ const workPeriod = 'January 2019 - Current' as const;
 function SimplePage(): JSX.Element {
   return (
     <>
-      <header className={styles.header}>
+      <HeaderStyled>
         <NamePosition name={name} surname={surname} position={position} />
         <Contacs mobile={mobile} email={email} portfolio={portfolio} />
-      </header>
+      </HeaderStyled>
 
       <hr className={styles.line} />
 
