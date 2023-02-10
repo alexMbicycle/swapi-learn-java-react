@@ -32,7 +32,7 @@ function Header(): JSX.Element {
           <Item>
             <Avatar
               alt="photo"
-              src="./public/static/images/photo.png"
+              src="/static/images/photo.png"
               sx={{
                 width: 190,
                 height: 190,

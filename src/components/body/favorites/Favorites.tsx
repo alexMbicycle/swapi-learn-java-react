@@ -30,7 +30,7 @@ function Favorites(): JSX.Element {
             <Stack direction="row" spacing={5} marginTop={2}>
               <Avatar
                 alt="movie"
-                src="./public/static/images/movie.png"
+                src="/static/images/movie.png"
                 sx={{
                   width: 110,
                   height: 110,
@@ -38,7 +38,7 @@ function Favorites(): JSX.Element {
               />
               <Avatar
                 alt="travel"
-                src="./public/static/images/travel.png"
+                src="/static/images/travel.png"
                 sx={{
                   width: 110,
                   height: 110,
@@ -49,7 +49,7 @@ function Favorites(): JSX.Element {
             <Stack direction="row" spacing={5} marginTop={2.5}>
               <Avatar
                 alt="painting"
-                src="./public/static/images/painting.png"
+                src="/static/images/painting.png"
                 sx={{
                   width: 110,
                   height: 110,
@@ -57,7 +57,7 @@ function Favorites(): JSX.Element {
               />
               <Avatar
                 alt="imagine"
-                src="./public/static/images/imagine.png"
+                src="/static/images/imagine.png"
                 sx={{
                   width: 110,
                   height: 110,
