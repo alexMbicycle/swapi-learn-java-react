@@ -3,16 +3,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkIcon from '@mui/icons-material/Link';
 import {
-  Box, Grid, Paper, Stack, styled, Typography,
+  Box, Grid, Stack, Typography,
 } from '@mui/material';
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-}));
+import { Item } from './ItemStyled';
 
 const email = 'ivanov.ivan@gmail.com';
 const gihub = 'ivanov.ivan';
@@ -22,7 +16,7 @@ const githubIo = 'ivanov.github.io';
 function Contacts(): JSX.Element {
   return (
     <Box sx={{ flexGrow: 1, m: 4 }}>
-      <Grid item xs={12}>
+      <Grid item xs={12} minWidth="max-content">
         <Item>
           <Typography
             variant="h5"

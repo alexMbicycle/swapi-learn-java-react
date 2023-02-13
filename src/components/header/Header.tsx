@@ -10,7 +10,7 @@ function Header(): JSX.Element {
   return (
     <Box sx={{ flexGrow: 1, m: 6 }}>
       <Grid container spacing={2} columns={18}>
-        <Grid item xs={3.5}>
+        <Grid item xs={4} minWidth="max-content">
           <Item>
             <Avatar
               alt="photo"
