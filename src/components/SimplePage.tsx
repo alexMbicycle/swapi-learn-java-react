@@ -8,7 +8,6 @@ function SimplePage(): JSX.Element {
       <Header />
       <Body />
       <Footer />
-
     </>
   );
 }
