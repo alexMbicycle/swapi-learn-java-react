@@ -6,9 +6,7 @@ function SimplePage(): JSX.Element {
   return (
     <>
       <Header />
-
       <Body />
-
       <Footer />
 
     </>

@@ -1,39 +1,12 @@
 import {
-  Box, Grid, Paper, styled, Typography,
+  Box, Grid, Typography,
 } from '@mui/material';
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'left',
-  color: theme.palette.text.secondary,
-}));
-
-const educations = [
-  {
-    id: 1,
-    name: 'Harvard University',
-  },
-  {
-    id: 2,
-    name: 'Massachusetts Institute of Technology (MIT)',
-  },
-  {
-    id: 3,
-    name: 'Stanford University',
-  },
-  {
-    id: 4,
-    name: 'University of California Berkeley',
-  },
-  {
-    id: 5,
-    name: 'University of Oxford',
-  }];
+import { constants } from './Constants';
+import { Item } from './ItemStyled';
 
 function Education(): JSX.Element {
-  const universityList = educations.map((university) => (
+  const universityList = constants.educations.map((university) => (
     <div key={university.id}>
       <Typography
         variant="h6"
