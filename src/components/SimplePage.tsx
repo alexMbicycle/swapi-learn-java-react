@@ -1,13 +1,13 @@
-import Counter from './counter';
-import SimpleAccordion from './my-accordion';
-
-const title = 'Hello Title!' as const;
+import Body from './body/Body';
+import Header from './header/Header';
+import Footer from './footer';
 
 function SimplePage(): JSX.Element {
   return (
     <>
-      <Counter title={title} />
-      <SimpleAccordion />
+      <Header />
+      <Body />
+      <Footer />
     </>
   );
 }
