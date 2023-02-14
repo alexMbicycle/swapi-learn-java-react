@@ -10,10 +10,6 @@ function Experience(): JSX.Element {
     <div key={project.id}>
       <Typography
         variant="h6"
-        sx={{
-          display: 'flex',
-          justifyContent: 'left',
-        }}
       >
         {project.name}
       </Typography>
@@ -29,10 +25,6 @@ function Experience(): JSX.Element {
             <Typography
               variant="h5"
               fontWeight="bold"
-              sx={{
-                display: 'flex',
-                justifyContent: 'left',
-              }}
             >
               Experience
             </Typography>

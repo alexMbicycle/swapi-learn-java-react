@@ -10,10 +10,6 @@ function Education(): JSX.Element {
     <div key={university.id}>
       <Typography
         variant="h6"
-        sx={{
-          display: 'flex',
-          justifyContent: 'left',
-        }}
       >
         {university.name}
       </Typography>
@@ -29,10 +25,6 @@ function Education(): JSX.Element {
             <Typography
               variant="h5"
               fontWeight="bold"
-              sx={{
-                display: 'flex',
-                justifyContent: 'left',
-              }}
             >
               Education
             </Typography>

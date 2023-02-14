@@ -14,10 +14,6 @@ function Favorites(): JSX.Element {
             <Typography
               variant="h5"
               fontWeight="bold"
-              sx={{
-                display: 'flex',
-                justifyContent: 'left',
-              }}
             >
               Favorites
             </Typography>

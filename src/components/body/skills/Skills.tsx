@@ -10,10 +10,6 @@ function Skills(): JSX.Element {
     <div key={skill.id}>
       <Typography
         variant="h6"
-        sx={{
-          display: 'flex',
-          justifyContent: 'left',
-        }}
       >
         {skill.name}
         <Rating name="half-rating-read" defaultValue={skill.value} precision={0.5} readOnly />
@@ -29,10 +25,6 @@ function Skills(): JSX.Element {
             <Typography
               variant="h5"
               fontWeight="bold"
-              sx={{
-                display: 'flex',
-                justifyContent: 'left',
-              }}
             >
               Skills
             </Typography>

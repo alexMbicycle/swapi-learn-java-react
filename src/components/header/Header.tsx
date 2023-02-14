@@ -27,28 +27,18 @@ function Header(): JSX.Element {
             <Typography
               variant="h5"
               fontWeight="bold"
-              sx={{
-                display: 'flex',
-                justifyContent: 'left',
-              }}
             >
               {constants.name}
             </Typography>
             <Typography
               variant="h5"
               fontWeight="bold"
-              sx={{
-                display: 'flex',
-                justifyContent: 'left',
-              }}
             >
               {constants.position}
             </Typography>
             <Typography
               sx={{
                 fontSize: 14,
-                display: 'flex',
-                justifyContent: 'left',
               }}
             >
               {constants.summary}
