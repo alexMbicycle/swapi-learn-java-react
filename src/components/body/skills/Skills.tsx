@@ -18,7 +18,6 @@ function Skills(): JSX.Element {
         {skill.name}
         <Rating name="half-rating-read" defaultValue={skill.value} precision={0.5} readOnly />
       </Typography>
-      {' '}
     </div>
   ));
 
