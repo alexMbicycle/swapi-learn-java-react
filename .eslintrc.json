@@ -39,6 +39,7 @@
     "react/no-unstable-nested-components": [
       "off"
     ],
+  
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "@typescript-eslint/consistent-type-imports": "warn",
@@ -160,7 +161,8 @@
               [
                 "^src",
                 "^containers",
-                "^common"
+                "^common",
+                "^styles"
               ],
               [
                 "^fields"
